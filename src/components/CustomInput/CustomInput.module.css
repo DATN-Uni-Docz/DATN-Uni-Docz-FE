@@ -1,0 +1,19 @@
+.label {
+  font-size: 16px;
+}
+
+.inputContainer {
+  margin-top: 10px;
+}
+
+.link {
+  margin-left: 8px;
+  color: var(--primaryColor);
+  &:hover {
+    text-decoration: underline;
+  }
+  &:visited {
+    color: var(--primaryColor);
+  }
+
+}

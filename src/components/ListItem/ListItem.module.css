@@ -1,0 +1,13 @@
+.icon svg{
+    fill: var(--colorGrey900);
+    font-size: "25px";
+}
+
+.icon_active svg{
+    fill: var(--colorGrey600);
+    font-size: "25px";
+}
+
+.mainItem{
+    font-weight: 600 !important;
+}

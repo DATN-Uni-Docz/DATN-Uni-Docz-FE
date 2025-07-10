@@ -1,0 +1,19 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.formSectionWrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.formSectionItem {
+  flex: 1;
+}
+
+.searchInputWrapper {
+  margin-bottom: 24px;
+}

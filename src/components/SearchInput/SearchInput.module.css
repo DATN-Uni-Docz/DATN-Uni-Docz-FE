@@ -1,0 +1,23 @@
+.searchBar {
+    min-width: 250px;
+    position: relative;
+    input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px #ccc solid;
+        outline: none;
+    }
+}
+
+.searchIcon {
+    position: absolute;
+    color: #ccc;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.searchIcon:hover{
+    cursor: pointer;
+}

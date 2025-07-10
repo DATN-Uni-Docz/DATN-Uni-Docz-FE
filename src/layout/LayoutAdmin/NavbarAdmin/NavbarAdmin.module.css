@@ -1,0 +1,45 @@
+.button {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.iconNotification {
+  position: relative;
+}
+
+.notification {
+  cursor: pointer;
+}
+
+.countItemCart {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -7px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}

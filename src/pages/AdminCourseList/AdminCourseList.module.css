@@ -1,0 +1,12 @@
+.searchInputWrapper {
+  margin: 24px 0;
+}
+
+.tableWrapper {
+  margin-top: 16px;
+}
+
+.deleted {
+  font-weight: 600;
+  font-style: italic;
+}

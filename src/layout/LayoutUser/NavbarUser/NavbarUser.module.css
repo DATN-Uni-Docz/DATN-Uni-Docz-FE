@@ -1,0 +1,99 @@
+.container {
+  height: var(--navbarHeight);
+  background-color: #ffffff;
+  padding: 10px var(--paddingHorizontal);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  max-height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+}
+
+.searchBar {
+  min-width: 350px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 5px;
+  background-color: #f3f4f6;
+}
+
+.searchInput {
+  width: 90%;
+  background-color: inherit;
+  padding: 10px 15px;
+  border-radius: inherit;
+}
+
+.searchIcon {
+  color: #000000;
+}
+
+.button {
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.primary {
+  background-color: var(--admin-color);
+  color: #ffffff;
+}
+
+.secondary {
+  color: var(--admin-color);
+  text-decoration: underline;
+}
+
+.actionBox {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.actionItem {
+  display: flex;
+  gap: 10px;
+  color: var(--admin-color);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.actionUser {
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  top: calc(100% + 15px);
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 8px;
+  flex-direction: column;
+  left: 0;
+  z-index: 100;
+}
+
+.menuLink {
+  min-width: 170px;
+  padding: 15px;
+  text-wrap: nowrap;
+  font-size: 15px;
+  color: #000000;
+  &:hover {
+    background-color: #e2e1e1;
+  }
+}

@@ -1,0 +1,7 @@
+.root {
+    margin-top: 6px;
+    margin-bottom: 0;
+    color: var(--failColor);
+    overflow: hidden;
+    font-size: 13px;
+}

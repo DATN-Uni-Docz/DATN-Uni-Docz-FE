@@ -1,0 +1,18 @@
+.container {
+  background-color: white;
+  font-size: 18px;
+}
+
+.table_head {
+  background-color: var(--secondaryColor);
+}
+
+.table_row:hover {
+  background-color: rgba(246, 247, 248, 0.5);
+}
+
+.link {
+  &:visited {
+    color: blue;
+  }
+}

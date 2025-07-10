@@ -1,0 +1,49 @@
+.root {
+    border: 2px dashed var(--colorLightPrimary);
+    border-radius: 14px;
+    height: 100%;
+    padding: 8%;
+    background-color: var(--secondaryColor);
+}
+
+.icon {
+    display: block;
+}
+
+.dragAccepted {
+    border: 2px solid var(--colorBorderDragDropAccepted);
+    background-color: var(--colorBackgroundDragDropAccepted);
+}
+
+.dragRejected {
+    border: 2px solid var(--colorBorderDragDropRejected);
+    background-color: var(--colorBackgroundDragDropRejected);
+}
+
+.chooseFileText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addFile {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dragDropInstruction {
+    color: var(--colorGrey500);
+
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.errorText {
+    text-align: center;
+    color: var(--colorFail);
+    margin-bottom: 24px;
+}

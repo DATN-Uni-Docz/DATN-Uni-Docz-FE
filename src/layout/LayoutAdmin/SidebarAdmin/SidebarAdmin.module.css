@@ -1,0 +1,13 @@
+.nav_link{
+    text-decoration: none !important;
+    color: var(--colorGrey900);
+}
+
+.active{
+    text-decoration: none !important;
+    color: var(--colorGrey600);
+}
+
+.logo {
+    width: 130px;
+}

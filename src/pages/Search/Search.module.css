@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    padding: 0 !important;
+}
+.left{
+    width: 20%;
+    background-color: #F3F5F7;
+}
+.right{
+    flex: 1;
+    background-color: #fff;
+}
+.main_title{
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E8ECEF;
+}

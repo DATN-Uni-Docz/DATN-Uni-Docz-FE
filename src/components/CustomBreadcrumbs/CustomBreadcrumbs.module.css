@@ -1,0 +1,16 @@
+.item {
+  color: inherit !important;
+  font-size: 18px;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &.active {
+    color: var(--colorBlack) !important;
+    cursor: default;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

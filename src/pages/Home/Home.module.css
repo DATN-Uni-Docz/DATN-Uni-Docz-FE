@@ -1,0 +1,156 @@
+.container {
+  /* max-width: 1440px; */
+}
+
+.banner {
+  background-color: var(--secondaryColor);
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.bannerDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 30px;
+  padding: 0 var(--paddingHorizontal);
+}
+
+.bannerImage {
+  padding-top: 35%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/study-image.jpg');
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.bannerDetails, .bannerImage {
+  width: 50%;
+}
+
+.bannerButtons {
+  display: flex;
+  gap: 20px;
+}
+
+.primary {
+  color: var(--colorWhite) !important;
+}
+
+.secondary {
+  color: var(--primaryColor) !important;
+}
+
+.main {
+}
+
+.sectionContent {
+  margin-top: 30px;
+}
+
+.section {
+  padding: 30px var(--paddingHorizontal) 40px;
+  &.primarySection {
+    background-color: var(--secondaryColor);
+  }
+}
+
+.sectionHeading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sectionHeadingIcon {
+  font-size: 32px !important;
+  color: var(--primaryColor);
+}
+
+.sectionHeadingText {
+  font-size: 28px;
+  &:hover {
+    cursor: default;
+  }
+}
+
+.universityList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.universityWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchUniversityWrapper {
+  min-width: 350px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.universityItemWrapper {
+  width: fit-content;
+  padding: 12px 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: var(--colorWhite);
+  padding: 24px 20px;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.05);
+  border: 1.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  transition: all 0.2s ease;
+  &:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+}
+
+.academicWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  column-gap: 24px;
+  row-gap: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.academicDetails, .subInfoDetails {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.badge {
+}
+
+.subInfoWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.analysisInfo {
+  display: flex;
+  column-gap: 16px;
+}

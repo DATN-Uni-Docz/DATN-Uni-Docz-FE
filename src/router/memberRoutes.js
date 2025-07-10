@@ -1,0 +1,17 @@
+export default {
+    landingPage: "/",
+    search: "/s",
+    detailPublicDocument: "/document/:id",
+    detailPublicCourse: "/course/:id",
+    detailUniversity: "/university/:id",
+    favouriteCourses: "/personal/favourite-courses",
+    favouriteDocuments: "/personal/favourite-documents",
+    uploadDocument: "/personal/upload-document",
+    myDocuments: "/personal/my-documents",
+    changePassword: "/personal/change-password",
+    profile: "/personal/profile",
+    myDocumentDetails: "/personal/my-documents/:id",
+    home: "/personal/home",
+    pricing: "/pricing",
+    subscription: "/personal/subscriptions",
+}

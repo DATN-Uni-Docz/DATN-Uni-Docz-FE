@@ -1,0 +1,51 @@
+.headerIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: var(--colorGrey500);
+}
+
+.documentPreviewWrapper {
+  width: 100%;
+  height: 90vh;
+  background-color: "var(--secondaryColor)";
+}
+
+.documentPreview {
+  width: 100%;
+  height: 100%;
+}
+
+a.documentInfoValue {
+  color: var(--primaryColor);
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.formWrapper {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.commentFormWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.documentCardWrapper {
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.05);
+  border: 1.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  transition: all 0.2s ease;
+  &:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+}

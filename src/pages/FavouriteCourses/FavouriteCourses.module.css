@@ -1,0 +1,14 @@
+.resultsPanel {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.cardItem {
+  width: calc(50% - 16px);
+}
+
+.searchInputWrapper {
+  margin: 30px 0;
+}

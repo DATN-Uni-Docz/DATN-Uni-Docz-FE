@@ -1,0 +1,33 @@
+.bannerContainer {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.btnActionBannerLeft,
+.btnActionBannerRight {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    opacity: 0;
+    padding: 20px 5px;
+    background: #e4e4e47d;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease, background 0.3s ease;
+}
+
+.bannerContainer:hover .btnActionBannerLeft,
+.bannerContainer:hover .btnActionBannerRight {
+    opacity: 1;
+}
+
+.btnActionBannerLeft {
+    left: 0px;
+}
+
+.btnActionBannerRight {
+    right: 0px;
+}
